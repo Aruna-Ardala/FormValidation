@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    margin:100px;
+    height:250px;
+    width: 300px;
+   box-shadow: 10px 5px 5px rgb(0,0,0,0.1);
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
